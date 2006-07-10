@@ -28,8 +28,8 @@ the one that ships with PHP.
 In PECL status of this extension is: %{_status}.
 
 %description -l pl
-To rozszerzenie zastêpuje wbudowanê baze stref czasowych dostarczan±
-wraz z PHP. Powiniene¶ zainstalowaæ to rozszerzenie, je¿eli chcesz
+To rozszerzenie zastêpuje wbudowanê bazê stref czasowych dostarczan±
+wraz z PHP. Nale¿y instalowaæ to rozszerzenie tylko je¶li musimy
 skorzystaæ z nowszej wersji bazy stref czasowych ni¿ tej dostarczanej
 wraz z archiwum PHP.
 
