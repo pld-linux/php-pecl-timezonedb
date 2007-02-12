@@ -1,7 +1,7 @@
 %define		_modname	timezonedb
 %define		_status		stable
 Summary:	%{_modname} - timezone database to be used with PHP's date and time functions
-Summary(pl):	%{_modname} - baza stref czasowych do wykorzystania z funkcjami date() oraz time()
+Summary(pl.UTF-8):   %{_modname} - baza stref czasowych do wykorzystania z funkcjami date() oraz time()
 Name:		php-pecl-%{_modname}
 Version:	2006.16
 Release:	1
@@ -24,10 +24,10 @@ the one that ships with PHP.
 
 In PECL status of this extension is: %{_status}.
 
-%description -l pl
-To rozszerzenie zastêpuje wbudowanê bazê stref czasowych dostarczan±
-wraz z PHP. Nale¿y instalowaæ to rozszerzenie tylko je¶li musimy
-skorzystaæ z nowszej wersji bazy stref czasowych ni¿ tej dostarczanej
+%description -l pl.UTF-8
+To rozszerzenie zastÄ™puje wbudowanÄ™ bazÄ™ stref czasowych dostarczanÄ…
+wraz z PHP. NaleÅ¼y instalowaÄ‡ to rozszerzenie tylko jeÅ›li musimy
+skorzystaÄ‡ z nowszej wersji bazy stref czasowych niÅ¼ tej dostarczanej
 wraz z archiwum PHP.
 
 To rozszerzenie ma w PECL status: %{_status}.
