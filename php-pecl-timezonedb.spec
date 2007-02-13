@@ -1,7 +1,7 @@
 %define		_modname	timezonedb
 %define		_status		stable
 Summary:	%{_modname} - timezone database to be used with PHP's date and time functions
-Summary(pl.UTF-8):   %{_modname} - baza stref czasowych do wykorzystania z funkcjami date() oraz time()
+Summary(pl.UTF-8):	%{_modname} - baza stref czasowych do wykorzystania z funkcjami date() oraz time()
 Name:		php-pecl-%{_modname}
 Version:	2006.16
 Release:	1
