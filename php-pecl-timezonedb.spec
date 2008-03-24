@@ -4,7 +4,7 @@ Summary:	%{_modname} - timezone database to be used with PHP's date and time fun
 Summary(pl.UTF-8):	%{_modname} - baza stref czasowych do wykorzystania z funkcjami date() oraz time()
 Name:		php-pecl-%{_modname}
 Version:	2008.2
-Release:	1
+Release:	2
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
