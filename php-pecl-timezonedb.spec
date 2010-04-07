@@ -3,12 +3,12 @@
 Summary:	%{_modname} - timezone database to be used with PHP's date and time functions
 Summary(pl.UTF-8):	%{_modname} - baza stref czasowych do wykorzystania z funkcjami date() oraz time()
 Name:		php-pecl-%{_modname}
-Version:	2010.5
+Version:	2010.7.1
 Release:	1
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
-# Source0-md5:	e5090a8d7818d49a909b74805dbc629f
+# Source0-md5:	5cb0d4efdb60299eb50911083af57912
 URL:		http://pecl.php.net/package/timezonedb/
 BuildRequires:	php-devel >= 3:5.0.0
 BuildRequires:	rpmbuild(macros) >= 1.344
