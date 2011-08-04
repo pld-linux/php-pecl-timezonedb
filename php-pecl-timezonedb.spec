@@ -36,6 +36,11 @@ To rozszerzenie ma w PECL status: %{status}.
 %setup -q -c
 mv %{modname}-%{version}/* .
 
+if [ "%{php_major_version}.%{php_minor_version}" = "5.3" ]; then
+	echo >&2 "pointless to build, PLD Linux PHP >= 5.3 uses system tzdata"
+	exit 1
+fi
+
 %build
 phpize
 %configure
