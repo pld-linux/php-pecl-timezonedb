@@ -1,15 +1,15 @@
 %define		php_name	php%{?php_suffix}
-%define		modname	timezonedb
+%define		modname		timezonedb
 %define		status		stable
 Summary:	%{modname} - timezone database to be used with PHP's date and time functions
 Summary(pl.UTF-8):	%{modname} - baza stref czasowych do wykorzystania z funkcjami date() oraz time()
 Name:		%{php_name}-pecl-%{modname}
-Version:	2011.14
+Version:	2013.8
 Release:	1
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
-# Source0-md5:	3dadd9c2e4dd23e510f1dae03eb14f8a
+# Source0-md5:	602dc8a2e9187db5e43d5be2c450b5b3
 URL:		http://pecl.php.net/package/timezonedb/
 BuildRequires:	%{php_name}-devel >= 3:5.0.0
 BuildRequires:	rpmbuild(macros) >= 1.650
@@ -37,7 +37,7 @@ To rozszerzenie ma w PECL status: %{status}.
 %setup -q -c
 mv %{modname}-%{version}/* .
 
-if [ "%{php_major_version}.%{php_minor_version}" = "5.3" ]; then
+if [ %{php_major_version} = 5 -a %{php_minor_version} -ge 3 ]; then
 	echo >&2 "pointless to build, PLD Linux PHP >= 5.3 uses system tzdata"
 	exit 1
 fi
